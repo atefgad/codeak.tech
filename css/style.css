@@ -656,68 +656,21 @@ ul.list-checked li i {
     color: #fff;
     font-size: 16px;
 }
-.apple-button {
-    width: 180px;
-    display: inline-block;
-    margin-left: 15px;
-    margin-top: 30px;
+.app-button .down-button{
+    margin-top: 20px;
 }
-.app-button a {
-    border: 2px solid #ffffff;
-    border-radius: 5px;
-    padding: 8px 15px;
-    text-decoration: none;
-    color: #ffffff;
-    display: block;
-}
-.apple-button .slider-button-icon {
-    padding: 0px 3px 6px 20px;
-    float: right;
-}
-.apple-button .slider-button-icon i {
-    font-size: 32px;
-    line-height: 36px;
-}
-.slider-button-title {
-    text-transform: uppercase;
-}
-.left-side-content p {
-    max-width: 575px;
-}
-.slider-button-title p {
-    margin: 0px;
-    padding: 0;
-    font-size: 11px;
-    line-height: 18px;
-}
-.slider-button-title h3 {
-    margin: 0;
-    font-size: 14px;
-    line-height: 20px;
-    text-transform: capitalize;
+.app-button .down-button a{
     color: #fff;
+    font-size: 1.5em;
+    
 }
-.google-button {
-    width: 180px;
-    display: inline-block;
-    margin-left: 15px;
-    margin-top: 30px;
+.app-button .down-button a:hover{
+    color: #c5bebe;
 }
-.google-button .slider-button-icon {
-    padding: 0px 3px 6px 15px;
-    float: right;
-}
-.google-button .slider-button-icon i {
-    font-size: 26px;
-    line-height: 38px;
-}
-.app-button a:hover {
-    background: #fff;
-    border: 2px solid transparent;
-    color: #911ec2;
-}
-.app-button a:hover p, .app-button a:hover h3{
-    color: #911ec2; 
+.app-button .down-button i{
+    font-size: 2.5em;
+    animation: floating2 7s infinite;
+    -webkit-animation: floating2 7s infinite;
 }
 .start-home-img img{
     animation: floating2 7s infinite;
