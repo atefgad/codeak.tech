@@ -27,7 +27,7 @@ $(document).ready(function () {
     /*======================================
      OwlCarousel our works
      ======================================*/
-    $('.list_our_works').owlCarousel({
+    $('.list_our_works3').owlCarousel({
         loop: true,
         items:3,
         margin: 10,
@@ -47,6 +47,7 @@ $(document).ready(function () {
     })
 
 
+
 });
 
 $(window).scroll(function() {
@@ -61,3 +62,39 @@ $(window).scroll(function() {
     
 
 });
+
+    /*======================================
+     Slides our works
+     ======================================*/
+     var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 1,
+        spaceBetween: 0,
+        // loop: true,
+        // loopFillGroupWithBlank: true,
+        // init: false,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        navigation: {
+            prevEl: '.swiper-button-prev',
+            nextEl: '.swiper-button-next',
+        },
+        history: {
+          key: 'slide',
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 0,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 0,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 0,
+          },
+        }
+      });
