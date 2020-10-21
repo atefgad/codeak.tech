@@ -1495,7 +1495,9 @@ footer .copyrights p i {
 #12. Responsive (All Devices)
 ============================================================================= */
 @media (max-width: 768px){
-
+    .banner_top{
+        margin-top: 60px;
+    }
     .header-area .navbar{
         background-image: linear-gradient(to right, rgba(144, 30, 193, 0.90) 0%, rgba(116, 80, 254, 0.90) 51%, rgba(144, 30, 193, 0.90) 100%);
         background-size: 200% auto;

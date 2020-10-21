@@ -32,10 +32,6 @@ $(document).ready(function () {
   $(".hamburger-icon").on("click", function () {
     $(this).toggleClass("open");
   })
-  
-  $(".hamburger-icon").on("keyup", function (e) {
-    27 == e.keyCode && $(".hamburger-icon").toggleClass("open");
-  })
 
   /*======================================
   Preloader
@@ -131,7 +127,7 @@ var swiper = new Swiper('.swiper-container', {
       spaceBetween: 0,
     },
     1024: {
-      slidesPerView: 3,
+      slidesPerView: 2,
       spaceBetween: 0,
     },
   }
