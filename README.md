@@ -1,2 +1,2 @@
-# khedma
-khedma | digital agancy
+# codeak.tech
+codeak | digital agancy
